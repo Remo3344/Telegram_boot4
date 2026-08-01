@@ -2,7 +2,7 @@ from telegram import Update, ChatPermissions
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 from functools import wraps
 
-TOKEN = "TOKEN = "8982634790:AAFIJpOF3Y3Q5Jc6YsFy5qYo5oapX5quaA8""
+TOKEN = "TOKEN = "8982634790:AAFIJpOF3Y3Q5Jc6YsFy5qYo5oapX5quaA8" 
 
 # دالة حماية: تمنع الأعضاء العاديين من استخدام الأوامر الإدارية
 def admin_only(func):
